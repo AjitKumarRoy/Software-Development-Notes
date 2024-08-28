@@ -1,0 +1,171 @@
+// Objects
+
+1> What is an object?
+=>  ->An object groups multiple values together.
+    ->e.g:-
+    const product = {
+        name: 'socks',
+        price: 1090
+    };
+
+    -> here,
+            product is an object
+            name & price is property
+            'socks' & 1090 are values
+    
+    -> product.name = 'cotton socks'; //change property value of object
+
+    -> product.quantity = 5; // add new property to a object
+
+    -> delete product.quantity; // delete any property of an object
+
+2> Why we use objects?? 
+=> Object makes our code more organised.
+
+3> Objects:-
+=>  ->let us group multiple values together
+    ->let us use multiple values together
+
+4> Rock-Paper-Scissors Game (update)
+=> ->When we click a button:-
+    (i) Computer randomly selects a move.
+    (ii) Compare the moves to get the result.
+    (iii) Update a score.
+    (iv) Display the result and score in a popup.
+
+5> Inside an object, we can save any type of value, this includes number, strings, boolean, functions
+   as well as other objects.
+
+6> Nested Objects:-
+=> const product2 = {
+
+        name: 'shirt',
+
+        'delivery-time': '1 day',
+
+        rating: {
+            stars: 4.5,
+            count: 87
+        }
+
+        fun: function function1() {
+            ------------------
+            ------------------
+            ------------------
+            ------------------
+        }
+
+   };
+
+ 7> Function inside object -> Method
+      e.g:-
+      (i) console.log(); ----> It is a Method
+      -> console is an object provided by JavaScript
+      -> log is a function i.e. saved inside the console object
+
+      (ii) Math.random(); -----> It is a Method
+      -> Math is an object provided by JavaScript
+      -> random is a function i.e. saved inside the Math object
+
+8> Object + function = Method
+
+9> Built-in-objects (they are provided by the language)
+    => e.g:- 
+       ->console.log();
+       ->Math.random();
+       ->JSON
+       ->localStorage
+
+10> JSON (Built-in-objects):-
+=>  ->JavaScript Object Notation
+        -a syntax
+        -similar to JavaScript object
+        -but has less features
+
+11> JavaScript Object syntax
+=>  {
+        name: 'shirt',
+
+        'delivery-time': '1 day',
+
+        rating: {
+            starts: 4.5,
+            count: 87
+        }
+
+        fun: function function1(){
+            ---------------
+            ---------------
+            ---------------
+        }
+    }
+
+    ->It is only understood by JavaScript, whereas JSON syntax can be understood by almost every programming
+    language. (JSON is more universal)
+
+12> JSON syntax 
+=> {
+        "name": "shirt",
+
+        "delivery-time": "1 day",
+
+        "rating": {
+            "stars": 4.5,
+            "count": 87
+        }
+   }
+
+   ->JSON doesn't support single quote.
+
+   ->JSON doesn't support function
+
+   ->similar to JS object but with less features
+
+   -> JSON is more Universal 
+
+13> We use JSON
+    - when we send data between Computers.
+    - when we store data.
+
+14> A JSON object helps us convert JavaScript object to JSON.
+
+15> //Convert: JavaScript Object --> JSON
+    -> JSON.stringify();
+
+16> //Convert: JSON --> JavaScript Object
+    -> JSON.parse();
+
+17> localStorage (Built-in-objects):-
+=>  ->It is used to save values more Permanently.
+    ->So far, we are saving our values in a variable. However, variables are temporary, they only
+    exist on the current page. If we refresh/close the page, all the variables are deleted.
+    ->localStorage only supports string.
+
+18> //To save value inside localStorage:-
+    localStorage.setItem('name', 'value');   //Method
+        ->localStorage ---> object
+        ->setItem ----> function
+        ->Method = object + function
+
+19> //To get value from localStorage:-
+    localStorage.getItem('name');   //Method
+        ->localStorage ----> object
+        ->getItem ----> function
+
+20> //To remove value from localStorage:-
+    localStorage.removeItem('score'); //Method
+        ->localStorage ----> object
+        ->removeItem ----> function
+
+21> When something doesn't exist in localStorage, it will give us -----> null
+
+22> We can't compare object's directly. (we compare it's properties values)
+
+
+
+***** In this lesson *****
+1) Objects = group related values together.
+2) Added a score to Rock Paper Scissors Game.
+3) Built-in objects (JSON, localStorage).
+4) More details (null, auto-boxing, references).
+5) Shortcuts (destructuring, shorthand property, shorthand method)

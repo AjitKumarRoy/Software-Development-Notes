@@ -1,0 +1,41 @@
+// Functions
+
+1> A function lets us reuse code.
+
+2> When we use a return statement, it ends the function immediately.
+
+3> Return = gets a value out of a function.
+   Parameter = puts a value into a function.
+   Argument = passing a value into the function.
+
+4> A parameter works the same way as a variable.
+   e.g:- 
+   function calculateTax(parameter1, parameter2) {
+    -------
+    -------
+    -------
+    return;
+   }
+
+5> "Passing a value into the function" // argument -> another name
+   e.g:- 
+   calculateTax(arugument);
+
+6> alert('hello');
+   ->alert ----> function
+   ->'hello' ---> arguments
+
+7> Default value for a Parameter:-
+   e.g:- 
+   function calculateTax(cost, taxPercent = 0.1) {
+        console.log(cost * taxPercent);
+   }
+
+
+
+
+***** In this lesson *****
+(i)   Functions = let us reuse code
+(ii)  Return = get a value out of a function
+(iii) Parameters = put values into a function
+(iv)  Improved the code for Rock, Paper, Scissors

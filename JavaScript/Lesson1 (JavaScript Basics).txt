@@ -1,0 +1,15 @@
+// JavaScript Basics
+
+1> What is JavaScript?
+=> It is technology that we use to create websites.
+
+2> -HTML -> creates the content of a website.
+   -CSS  -> changes the appearance of a website.
+   -JavaScript -> JavaScript makes it interactive.
+
+3> alert(); // instruction to create a popup.
+
+4> Syntax???
+=> Rules that we have to follow when using a programming language.
+
+5> We can write JavaScript Code in the Console of a Web Browser.

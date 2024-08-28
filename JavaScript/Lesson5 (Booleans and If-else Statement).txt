@@ -1,0 +1,155 @@
+// Booleans and If-else Statement
+
+1> What's the purpose of Boolean Value??
+=> A boolean value represents whether something is true or false.
+
+2> Comparison Operators
+=>  >       greater than
+    <       less than
+    >=      greater than or equal to
+    <=      less than or equal to
+    ===     equal to (don't use ==)
+    !==     not equal to (don't use !=)
+
+3> console.log (5 == '5.00');  //true
+   ==  -> converts both the values into the same type, 
+
+   console.log (5 === '5.00'); //false
+
+4> //Order of operations
+=>  (i)   (....)
+    (ii)  *, /
+    (iii) +, -
+    (iv)  comparison Operators
+    (v)   Logical Operators
+
+5> Comparison operators have a lower priority than math operators.
+
+6> If-Statements:-
+   -> lets us write multiple groups of code
+   -> and then decide which code to run
+
+7> if(condition) {
+      //this block will execute if condition is true
+   } else {
+      //this block will execute if condition is false
+   }
+
+
+8> if(condition1) {
+      //this block will execute if condition1 is true
+   } else if(condition 2){
+      //this block will execute if condition1 is false and condition 2 is true
+   } else {
+      //this block will execute if both condition1 and condition2 is false
+   }
+
+9> Strategy for JavaScript
+=> (i)  Think about what steps we need.
+   (ii) Convert those steps into code.
+
+10> Rock-Paper-Scissors Game (This is called Algorithm)
+=> When we click a button: 
+   (i) Computer randomly selects a move.
+   (ii) Compare the moves to get the result.
+   (iii) Display the result in a popup.
+
+11> Logical Operators
+=> (i) && operator (condition1 && condition2)
+    -> it checks if both the condition is true
+
+   (ii) || operator (condition1 || condition2)
+   -> it checks if one of the condition is true
+
+   (iii) ! operator (!condition)
+   -> it flips the value of condition 
+
+
+12> Truthy and Falsy values
+=>  Falsy values:- false, 0, '', NaN (Not a Number), undefined, null
+    e.g:-
+    if(0) {
+        console.log('falsy');
+    }
+
+    Truthy values:- Any value not on this list is Truthy
+    e.g:-
+    if(5) {
+        console.log('truthy');
+    }
+
+13> Why do we use truthy & falsy values???
+=>  const cartQuantity = 5;
+    if(cartQuantity) {
+        console.log('cart has products');
+    }
+
+    -> cartQuantity = 5
+        -> cartQuantity > 0 => true
+        -> cartQuantity     => truthy
+    
+    -> cartQuantity = 0
+        -> cartQuantity > 0 => false
+        -> cartQuantity     => falsy
+
+    -> we can use truthy & falsy values as Shortcuts
+
+    -> console.log(!0); //true
+
+    ->console.log('text' / 5); //NaN
+
+    ->let variable1;
+    console.log(variable1); //undefined
+
+14> Shortcuts for If-Statements:-
+    -Ternary Operator ?:
+    -Guard Operator &&
+    -Default Operator ||
+
+
+15> Ternay Operator ?:
+=>  const result = true ? 'truthy' : 'falsy';
+    ->This is similar to an if - else Statement.
+    ->This is like an shortcut for if - else.
+    ->Advantage of ternary operator over an if statement is -> we can save a ternary operator in a variable.
+
+16> Guard Operator &&
+=>  ->false && console.log('hello');
+
+    ->const message = false && 'hello';
+
+    console.log(message); // false
+
+    ->&& stops early (short-circuits)
+
+    -> Guard operator is sort of a shortcut for an if statement like this =>
+    let message;
+    if (condition) {
+        message = 'hello';
+    }
+
+17> Default Operator ||
+=>  -> true || value2
+    -> stops early(short-circuits)
+
+    -> const currency = 'EUR' || 'USD';
+    console.log(currency); //EUR
+
+    -> const currency = undefined || 'USD';
+    console.log(currency); // USD
+
+    -> Default operator is sort of a shortcut for an if statement like this =>
+    let currency;
+    if(!condition) {
+        currency = 'USD';
+    }
+
+
+18> In this lesson:-
+=>  (i)   Boolean Values (true, false)
+    (ii)  If - Statements
+    (iii) Comparison Operators (>, <, >=, <=, ===, !==)
+          Logical Operators (&&, ||, !)
+    (iv)  Algorithms, and created Rock Paper Scissors Game
+    (v)   Truthy and Falsy Values
+    (vi)  Shortcuts for if-statements (ternary, guard, default).

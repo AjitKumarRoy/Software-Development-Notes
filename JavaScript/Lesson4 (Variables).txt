@@ -1,0 +1,75 @@
+// Variables
+
+1> What is a Variable??
+=> A variable is like a container, we can save a value like a number or a string inside a variable
+   and then use it later.
+
+2> console.log();  //it is used to display the output in the console of web browser
+
+3> let result = 2;
+=> here, result is variable  & 2 is value
+
+4> In JavaScript, we can save any TYPE of value inside a variable like Numbers, Strings etc.
+
+5> Variable name Restrictions:
+=> (i)   Can't use special words.
+   e.g:- let 
+   (ii)  Can't start with a number.
+   (iii) Can't use special characters, except:- $ _
+
+6> ;  //semicolon means the end of a instruction.
+
+7> JavaScript is little special,
+           -> because it has a feature called Semicolon Insertion, that means it will try to insert the 
+           last semicolon in a line of code automatically.
+
+           -> But don't do it. Insert the semicolon manually.
+
+8> onclick = " ";  // this attribute will run some JavaScript when we click the button.
+
+9> Variable Re-assignment Shortcuts:-
+   += 2     variable = variable + 2;
+   -= 2     variable = variable - 2;
+   *= 2     variable = variable * 2;
+   /= 2     variable = variable / 2;
+   ++       variable = variable + 1;
+   --       variable = variable - 1;
+
+10> Naming Conventions:-
+=>  (i)   camelCase          e.g:- cartQuantity
+    -> we use camelCase everywhere in JavaScript
+
+    (ii)  PascalCase         e.g:- CartQuantity
+    -> we use this in JavaScript in only one place (later in course)
+
+    (iii) kebab-case         e.g:- cart-quantity 
+    -> it doesn't work in JavaScript
+    -> however, we use this in HTML and CSS
+
+    (iv)  snake_case         e.g:- cart_quantity
+    -> used in other languages
+
+11> 3 ways to create variables in JavaScript
+=>  (i)   let variable1 = 4;
+    -> we can change it's value later
+
+    (ii)  const variable2 = 3;
+    -> use this by default
+    -> can't change it's value later
+
+    (iii) var variable3 = 3;
+    -> we don't use var nowadays due to some security issues.
+
+12> Best Practice -> use const by default
+    (only use let when we need to change the variable)
+
+
+
+
+***** In this lesson *****
+(i)   variables = a way to save values
+(ii)  Re-assign a variable
+(iii) Created the Cart Quantity feature
+(iv)  Shortcuts for re-assigning a variable
+(v)   Naming conventions and best practices.
+(vi)  3 ways to create a varible: let, const, var.

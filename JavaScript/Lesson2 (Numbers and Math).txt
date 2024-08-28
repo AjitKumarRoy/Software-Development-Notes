@@ -1,0 +1,14 @@
+// Numbers and Math
+
+1> Order of Precedence:--->
+=> (i)   (....)
+   (ii)  *, /  [// it will calculate from left to right]
+   (iii) +, -
+
+2> Computer have problems in storing float values.
+
+3> Calculations with floats are stometimes inaccurate, When working with money we want to avoid any inaccuracies.
+=> (i)  Do the Calculations in Cents. // multiply by 100
+   (ii) Convert back to dollars. //divide by 100
+
+4> Math.round();  // to round a Numbers

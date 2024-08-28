@@ -1,0 +1,54 @@
+// Strings
+
+1> String is a text.
+
+2> //concatenation -> means combine strings together
+   e.g:- 'some' + 'text' = 'sometext'
+
+3> //to check datatype of anything
+   e.g:- typeof  ....;
+
+4> //type coercion -> means automatic type conversion
+   e.g:- 'hello' + 3 = 'hello3'  // here 3 is a number but it is converted to string, and then added to hello.
+
+5> JavaScript adds from left to right.
+
+6> String also follows order of operations, means we can use brackets () to control which part of a Calculation
+   gets done first.
+
+   eg:- a) '$' + 20.95 + 7.99  = '$20.957.99'
+        b) '$' + (20.95 + 7.99) = '$28.93999999'
+
+7> // 3 ways to write String
+   (i)   '....'   ->  use this by default
+   (ii)  "...."   ->  use this whenever we have to use a single quote inside a string
+   (iii) `....`   ->  strings created with backtick have a name and are called template strings (Template Strings)
+
+8> Template Strings have some special features:-
+   (i)Interpolation -> insert value directly into a string.
+   e.g:- `Items ${}`;
+   ${} -> this set of characters allows us to insert value directly into string.
+
+   (ii)Multi-line String ->
+   e.g:- `some
+         text`;
+
+9> Interpolation is a much cleaner way of inserting a value into a string.
+   -> So, use Interpolation in place of concatenation.
+
+10> What should we use to crate a string???
+=>  (i)  Use '....' by default.
+    (ii) If we need Interpolation and Multi-line strings, then use ----> `....` (Template Strings)
+
+11> (i)   \'   --> creates a single quote that is just text.
+    (ii)  \"   --> creates a double quote that is just text.
+    (iii) \n   --> newline character, adds a newline.
+
+
+***** In this lesson we learned *****
+1) String = text
+2) Use strings and numbers together
+3) Three ways to create strings:
+   '....'     "...."    `....`(template strings)
+4) Escape characters: \'   \"    \n
+5) Interpolation & Multi-line Strings
